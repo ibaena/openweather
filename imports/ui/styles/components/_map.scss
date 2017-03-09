@@ -1,6 +1,33 @@
 /********************************
        MAP STYLES
 ********************************/
-  #map {
-    
-  }
+#map {
+    margin-left: 75px;
+
+    .sidebar {
+        text-align: center;
+
+        #search-form {
+            position: fixed;
+            left: 0;
+            background: red;
+            width: 250px;
+            min-height: 100vh;
+
+            .form-group {
+                #search {
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+
+                #activate {
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+    .weather-data {
+      text-align: center;
+    }
+}
