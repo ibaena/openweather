@@ -1,9 +1,7 @@
-/********************************
-       MAP STYLES
+/*******************************
+    Search Sidebar Styles
 ********************************/
-#map {
-    margin-left: 75px;
-
+#search-bar {
     .sidebar {
         text-align: center;
 
@@ -26,8 +24,5 @@
                 }
             }
         }
-    }
-    .weather-data {
-      text-align: center;
     }
 }
